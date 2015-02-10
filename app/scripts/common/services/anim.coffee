@@ -74,7 +74,6 @@
           g_texture.fillStyle = "#00000000";
           g_texture.fillRect(0, 0, 300, 300);
           g_texture.drawImage(arr_ImageLetters[nFound], 0, 0);
-          console.log(g_texture)
           var imageData = g_texture.getImageData(0, 0, 300, 300);
           var sqWidth = 4;
           if (bHighRes) sqWidth = 2;

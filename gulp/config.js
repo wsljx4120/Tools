@@ -45,7 +45,7 @@ global.config = {
     }
   },
   ports: {
-    staticServer: 9004,
-    livereloadServer: 35730
+    staticServer: 9000,
+    livereloadServer: 35729
   }
 };
