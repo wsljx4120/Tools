@@ -35,14 +35,10 @@
     "vue": "^0.11.4",
     "vueify": "^1.1.0",
     "watchify": "^0.10.2",
-    "yargs": "^1.2.2",
-    "weixin-common": "git+ssh://git@www.abc.com:jingya.wang/weixin-service-common.git#0.2.0",
-
-    "wechatApi": "git+ssh://git@github.com:baidao/wx_api.git#v0.0.4"
+    "yargs": "^1.2.2"
   },
   "browser": {
     "zepto": "./bower_components/zepto/zepto.js"
-
   },
   "browserify-shim": {}
 }
