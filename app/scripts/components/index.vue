@@ -6,13 +6,17 @@
   <div class="milky">
   MYSTERY
   </div>
-  <input class="num"></input>
   <p></p>
-  <button type="button" class="punch">GO</button>
 </div>
+<button type="button" class="punch" v-on="click:toGame">GO</button>
 </template>
 <script lang="coffee">
   module.exports =
+    inherit: true
     data: -> 
       demo: 'hello world'
+    methods:
+      toGame:->
+        @currentView="game"
+
 </script>

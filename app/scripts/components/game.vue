@@ -31,7 +31,7 @@
   }
   .msg{
     padding-left: 10px;
-    padding-top: 1.2rem;
+    padding-top: 0.5rem;
     font-size: .5rem;
     color: #fff;
     padding-right: 10px;
