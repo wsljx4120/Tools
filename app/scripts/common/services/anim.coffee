@@ -34,7 +34,7 @@
   var bImagesLoaded = false;
   var nGeneralWindX = Math.sin(Math.random() * 360) * 3;
   var nGeneralWindY = Math.cos(Math.random() * 360) * 3;
-  var arr_Msg = ['s','c','h','e','m','i','n','g'];
+  var arr_Msg = ['m','y','s','t','e','r','y'];
   var nMsgIndex = 0;
   var arr_ImageLetters = new Array();
   var arr_letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
