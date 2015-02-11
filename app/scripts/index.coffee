@@ -10,7 +10,8 @@ Vue = require 'vue'
 appView = new Vue
   el: document.body
   data:
-    currentView: 'loading'
+    currentView: 'game'
   components:
     'loading': require './components/loading'
     'index': require './components/index'
+    'game': require './components/game'    

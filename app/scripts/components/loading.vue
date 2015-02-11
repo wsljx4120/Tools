@@ -32,7 +32,7 @@ module.exports =
     anim: anim
   ready: ->
     @anim.init()
-    setTimeout(@toIndex, 26000);
+    setTimeout(@toIndex, 26000)
   methods:
     toIndex:->
       @currentView="index"
